@@ -1,0 +1,10 @@
+<h1 dv-color="gold">TMNT</h1>
+<h2 ng-repeat="team in teams"><a ui-sref="team ({teamId:team.id})" dv-color="green">{{team.name}}</a></h2>
+
+<button class="open-popup">Click to Open Popup</button>
+
+<hr>
+
+<div dv-popup="button">
+    Hello world! I am a popup that you chose to open!!!
+</div>

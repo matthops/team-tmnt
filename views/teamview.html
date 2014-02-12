@@ -1,0 +1,14 @@
+<p>This is the TeamView view.</p>
+
+	<!-- <h2 ng-repeat="character in team.characters"><a ng-href="#/characterview/{{character.id}}">{{character.name}}</a></h2> -->
+<ul>
+		<li ng-repeat="char in characters" dv-color="gold" dv-hover>
+				<dv-append text="{{char.name}}" append="is a filthy anmial.">Jabberwocky</dv-append>
+			</li>
+		</ul>
+
+		<!-- <div dv-table="characters" dv-table-headers="['id', 'name']"></div> -->
+		<div dv-table="characters" dv-table-headers="['id', 'name']"></div>
+
+		<hr>
+		<a ui-sref="main">Back To Main</a>
